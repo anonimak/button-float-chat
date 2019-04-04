@@ -1,0 +1,47 @@
+@media only screen and (max-width: 450px) {
+    .float {
+        position: fixed !important;
+        width: 60px !important;
+        height: 60px !important;
+        bottom: 10px;
+        right: 10px;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+    }
+
+    a.btn-chat {
+        font-size: 18px !important;
+    }
+
+    a.btn-chat>span {
+        display: none;
+    }
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #CCC;
+}
+
+.float {
+    position: fixed;
+    width: 140px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #0C9;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float {
+    margin-top: 22px;
+}
+
+a.btn-chat {
+    text-decoration: none;
+    font-size: 16px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="mychat.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+</head>
+
+<body>
+
+    <a href="#" class="btn-chat float">
+        <i class="fa fa-comments my-float"></i>
+        <span>Chat Us</span>
+    </a>
+</body>
+<script>
+    $('.btn-chat').click(function (e) {
+        e.preventDefault();
+        let params;
+        params =
+            `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=400,height=600,left=1360,top=70`;
+        open('http://1.1.1.15:3000', 'test', params);
+    });
+</script>
+
+</html>
